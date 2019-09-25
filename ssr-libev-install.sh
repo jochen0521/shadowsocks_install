@@ -84,7 +84,7 @@ cd /root/
 rm -rf libsodium-1.0.12.tar.gz libsodium-1.0.12
 
 #git安装ssr
-git clone https://github.com/jochen0521/shadowsocksr-1.git ${ssrdir}
+git clone https://github.com/jochen0521/shadowsocks-all.git ${ssrdir}
 cd ${ssrdir}
 bash setup_cymysql.sh
 bash initcfg.sh
